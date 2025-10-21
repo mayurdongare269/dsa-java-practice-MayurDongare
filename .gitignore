@@ -1,0 +1,8 @@
+# .gitignore example
+*.class
+*.log
+.vscode/
+target/
+bin/
+*.iml
+.idea/

@@ -23,7 +23,8 @@ public class _56_IMP_Merge_Intervals {
             if(merged.isEmpty() || merged.get(merged.size() - 1)[1] < interval[0]) {
                 merged.add(interval);
             } else { // case2: overlapping -> merge
-                merged.get(merged.size() - 1)[1] = Math.max(merged.get(merged.size() - 1)[1], interval[1]);
+                merged.get(merged.size() - 1)[1] = Math.max(merged.get(merged.size() - 1)[1], 
+                interval[1]);
             }
         }
 

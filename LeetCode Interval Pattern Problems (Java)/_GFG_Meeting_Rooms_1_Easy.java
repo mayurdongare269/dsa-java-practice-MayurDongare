@@ -1,6 +1,6 @@
 // _GFG_Meeting Rooms_1_Easy.java -
 
-import java.util.*;
+import java.util.*; // O(nlogn) & O(logn)
 
 public class _GFG_Meeting_Rooms_1_Easy {
     static boolean canAttend(int[][] arr) {
